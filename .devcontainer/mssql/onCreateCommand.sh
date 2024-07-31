@@ -14,7 +14,7 @@ echo "File path is set to $filePath/$adventureworks"
 if ! [ -f "$filePath/$adventureworks" ]
 then
     echo "File not found, downloading"
-    curl -L -o "$filePath/$adventureworks" "https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/$adventureworks"
+    curl -L -o "$filePath/$adventureworks" "https://github.com/microsoft/sql-server-samples/releases/download/adventureworks/$adventureworks"
 else
     echo "File exists"
 fi

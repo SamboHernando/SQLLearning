@@ -22,7 +22,7 @@ namespace SQLLearning.Data
         public Guid rowguid { get; set; }
         public DateTime ModifiedDate { get; set; }
 
-        public override string? ToString()
+        public override string ToString()
         {
             return $"{BusinessEntityID.ToString()}, {LoginID}, {HireDate.ToString()}, {JobTitle}";
         }
